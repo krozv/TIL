@@ -1,7 +1,5 @@
 # TIL
 
----
-
 ## git
 
 ## python
