@@ -24,7 +24,7 @@
 
 동시에 다양한 작업 수행 O
 
-장점
+**장점**
 
 - 중앙 서버의 장애나 손실에 대비하여 백업과 복구가 용이
 
@@ -45,47 +45,47 @@
 
 1. git init
 
-local repository를 초기화(initialize)
+    local repository를 초기화(initialize)
 
-git 버전 관리를 시작할 디렉토리에서 진행해야 함
+    git 버전 관리를 시작할 디렉토리에서 진행해야 함
 
-git init를 입력하면 뒤에 (master) 표시를 확인할 수 있음
+    git init를 입력하면 뒤에 (master) 표시를 확인할 수 있음
 
-(master)외에 (main)를 혼용하기도 함
+    (master)외에 (main)를 혼용하기도 함
 
-git local repository 내에 또 다른 local repository 생성 X
+    git local repository 내에 또 다른 local repository 생성 X
 
--> git 저장소 안에 다른 저장소가 있을 경우 외부 저장소가 내부 저장소의 변경사항을 추적할 수 없기 때문
+    -> git 저장소 안에 다른 저장소가 있을 경우 외부 저장소가 내부 저장소의 변경사항을 추적할 수 없기 때문
 
 2. git config ~
 
-git config --global user.email "이메일"
+    git config --global user.email "이메일"
 
-git config --global user.name "이름"
+    git config --global user.name "이름"
 
-git init 후에 author 정보를 입력하는 과정
+    git init 후에 author 정보를 입력하는 과정
 
 3. git add
 
-로컬 저장소 내에 변경사항이 있는 파일을 staging area에 추가하는 명령어
+    로컬 저장소 내에 변경사항이 있는 파일을 staging area에 추가하는 명령어
 
 4. git commit -m "변경사항 메모"
 
-staging area에 있는 파일을 repository로 이동
+    staging area에 있는 파일을 repository로 이동
 
-버전을 생성하고 변경 이력을 남기는 것으로 반드시 commit message를 작성해야 함
+    버전을 생성하고 변경 이력을 남기는 것으로 반드시 commit message를 작성해야 함
 
 5. git status
 
-파일이 staging area내에 위치하는 지 확인할 수 있는 명령어
+    파일이 staging area내에 위치하는 지 확인할 수 있는 명령어
 
-git add 후 올바르게 staging area에 위치할 경우 **Changes to be committed:** 메세지 하단에 파일명이 보인다
+    git add 후 올바르게 staging area에 위치할 경우 **Changes to be committed:** 메세지 하단에 파일명이 보인다
 
 6. git log
 
-commit한 git 내역을 확인할 수 있음
+    commit한 git 내역을 확인할 수 있음
 
-가장 오래된 commit이 하단에 위치함
+    가장 오래된 commit이 하단에 위치함
 
 ## local repository & remote repository
 
@@ -101,41 +101,38 @@ github와 같은 버전관리시스템으로 생성한 repository
 
 1. git remote -v
 
-local repository와 연결된 remote repository가 존재할 경우 보여줌
+    local repository와 연결된 remote repository가 존재할 경우 보여줌
 
 2. git remote add {remote repo name} {remote repo url}
 
-(ex) git remote add origin https://github.com/krozv/TIL.git
+    (ex) git remote add origin https://github.com/krozv/TIL.git
 
-    -> TIL repository를 origin이란 이름으로 연결함
+    TIL repository를 origin이란 이름으로 연결함
 
 3. git push -u origin master
 
-master(local repo) -> origin(remote repo)으로 파일 올림 (push)
+    master(local repo) -> origin(remote repo)으로 파일 올림 (push)
 
 4. git pull origin master
 
-origin(remote repo)-> master(local repo)로 파일 받음 (pull)
+    origin(remote repo)-> master(local repo)로 파일 받음 (pull)
 
 5. git fetch
 
-remote repo에서 데이터를 모두 local repo로 가져오는 것
+    remote repo에서 데이터를 모두 local repo로 가져오는 것
 
-> fetch와 pull 차이
-
-> fetch: 단순히 데이터를 가져오는 것
-
-> pull: fetch + merge. 자동 merge까지 진행함
-
-> merge: 같은 이름의 다른 내용 파일이 각각의 저장소에 존재할 경우 파일을 합병하는 것
+> **fetch와 pull 차이** <br>
+> fetch: 단순히 데이터를 가져오는 것 <br>
+> pull: fetch + merge. 자동 merge까지 진행함 <br>
+> merge: 같은 이름의 다른 내용 파일이 각각의 저장소에 존재할 경우 파일을  합병하는 것
 
 6. git clone {remote_repo_url}
 
-(ex) git clone https://github.com/krozv/TIL.git
+    (ex) git clone https://github.com/krozv/TIL.git
 
-원격 저장소 전체를 다운로드(복제)
+    원격 저장소 전체를 다운로드(복제)
 
-git init를 실행하지 않은 directory에서 사용할 것
+    git init를 실행하지 않은 directory에서 사용할 것
 
 ## gitignore
 
