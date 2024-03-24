@@ -4,6 +4,5 @@
 
 ## python
 
-## javascript
+## java
 
-## c
