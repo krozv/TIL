@@ -1,8 +1,0 @@
-# TIL
-
-## git
-
-## python
-
-## java
-
