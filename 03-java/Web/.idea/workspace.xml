@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1472392-cdfb-4449-923a-63c35331cd8a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Study/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/Study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/01-Java-basics.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/02-1D-Array.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/03-2D-Array.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/04-Class-and-Object.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/APS/Average.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/APS/Odd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Array/Array01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Array/Array02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Array/Array03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Array/Array04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Array/Array05_count_sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Class/Constructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Class/FunctionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Class/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Class/PersonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Array/Array01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Array/Array02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Array/Array03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Array/Array04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Array/Array05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Delta/Delta01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Triangle/Triangle01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Triangle/Triangle02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/TwoDimensionalArray/Triangle/Triangle03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Study/src/input.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2e7ABoT2KzryKSccNMzMwdIxHEb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/parkjuyeon/TIL/03-java/Web",
+    "settings.editor.selected.configurable": "configurable.group.editor"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1472392-cdfb-4449-923a-63c35331cd8a" name="Changes" comment="" />
+      <created>1711245109682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711245109682</updated>
+    </task>
+    <servers />
+  </component>
+</project>
