@@ -1,7 +1,7 @@
 - [01-DOM](01-DOM.md)
 - [02-Basic Syntax](02-Basic_Syntax.md)
-- 03-Function
-  - [03-01-Function](03-Function/01-Function.md)
-  - [03-02-Object](03-Function/02-Object.md)
-  - [03-03-Array](03-Function/03-Array.md)
+- 03-Reference_Type
+  - [03-01-Function](03-Reference_Type/01-Function.md)
+  - [03-02-Object](03-Reference_Type/02-Object.md)
+  - [03-03-Array](03-Reference_Type/03-Array.md)
 - [04-Controlling_Event](04-Controlling_Event.md)

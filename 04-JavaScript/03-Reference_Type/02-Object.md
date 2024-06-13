@@ -20,6 +20,9 @@
     - [6. 유용한 객체 메서드](#6-유용한-객체-메서드)
     - [7. Optional chaining ('?.')](#7-optional-chaining-)
 - [JSON](#json)
+    - [Object \<-\> JSON 변환하기](#object---json-변환하기)
+- [\[참고\]](#참고)
+    - ['new' 연산자](#new-연산자)
 
 # Object
 
@@ -375,4 +378,44 @@ Optional chaining 정리
 # JSON
 - JavaScript Object Notation
 - Key-Value 형태로 이루어진 자료 표기법
-- java
+- JavaScript의 Obejct와 유사한 구조를 가지고 있지만 JSON은 형식이 있는 문자열
+- JavaScript에서 JSON을 사용하기 위해서는 Object 자료형으로 변경해야 함
+### Object <-> JSON 변환하기
+```js
+const jsObject = {
+  coffee: 'Americano',
+  iceCream: 'Cookie and cream',
+}
+// Object -> JSON
+const objToJson = JSON.stringify(jsObject)
+console.log(objToJson) // {"coffee": "Americano, "iceCream": "Cookie and cream"}
+console.log(typeof objToJson) // string
+
+// JSON -> Object
+const jsonToObj = JSON.parse(objToJson)
+console.log(jsonToObj) // { coffee: 'America', iceCream: 'Cookie and cream' }
+consolo.log(typeof jsonToObj) // object
+```
+# [참고]
+### 'new' 연산자
+- JS에서 객체를 하나 생성한다고 한다면?
+  - 하나의 객체를 선언하며 생성
+- 동일한 형태를 객체를 또 만든다면?
+  - 또 다른 객체 선언 후 생성
+- new 연산자 사용!
+```js
+function Member(name, age, sId) {
+  this.name = name
+  this.age = age
+  this.sId = sId
+}
+
+const member3 = new Member('Bella', 21, 20226543)
+console.log(member3) // Member { name: 'Bella', age: 21, sId: 20226543 }
+console.log(member3.name) // Bella
+```
+`new constructor[([arguments])]`
+- 사용자 정의 객체 타입을 생성
+- 매개변수
+  - `constructor`: 객체 인스턴스의 타입을 기술하는 함수
+  - `arguments`: `constructor`와 함께 호출될 값 목록
