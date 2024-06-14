@@ -8,7 +8,7 @@ void main() {
 
   // class에서 변수나 property를 선언할 때 타입 지정
   // 변수 변경 가능
-  String nickname = 'krozv'
+  String nickname = 'krozv';
 
   // 1.2 Dynamic Type
 
@@ -18,7 +18,8 @@ void main() {
   dynamicType = 12;
   dynamicType = true;
 
-  dynamic varible;
+  dynamic variable;
+  variable = 123;
   if(variable is String){
     // print(variable.length())
   }
@@ -41,4 +42,29 @@ void main() {
     fruit.isNotEmpty;
   }
   fruit?.isNotEmpty; // 위 if문과 같은 뜻. fruit가 존재하면 뒤 함수를 실행.
+  
+  // 1.4 Final Variables
+
+  // 한 번 정의된 변수를 수정할 수 없게 만들려면 final을 사용
+  final scent = 'olive';
+  // scent = 'powder';
+  // Error: Can't assign to the final variable 'scent'.
+
+  // 1.5 Late Variables
+  
+  // final, var 앞에 붙여줄 수 있는 수식어
+  late final String drink;
+  // do something, go to api
+  // late를 사용하면 변수를 먼저 만들고, 나중에 값을 할당할 수 있음
+  // flutter로 data fetching 시 활용
+  // late final: 한번만 할당할 수 있는 변수
+  drink = 'water';
+
+  // 1.6 Constant Variables
+
+  // const: compile-time constant를 생성
+  const color = 'white';
+  // compile-time에 알고 있는 값이어야 함
+  // const API = fetchAPi(); 로 사용 불가
+
 }
