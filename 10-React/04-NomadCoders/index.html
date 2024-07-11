@@ -13,12 +13,17 @@
         
     }
     function App() {
-        const [ counter, modifier ] = React.useState(0);
-        console.log(counter);
+        // [data, modifier]
+        const [ counter, setCounter ] = React.useState(0);
+        const onClick = () => {
+            // counter 변경 후 rendering 진행
+            setCounter(counter + 1);
+           
+        }
         return(
         <div>
             <h3>Total clicks: { counter }</h3>
-            <button onClick={countUp}>Click me</button>
+            <button onClick={onClick}>Click me</button>
         </div>
         );
     }

@@ -129,3 +129,57 @@
 ``` 
 
 ### setState part One
+- useState를 적용하고, 할당된 배열의 값을 확인해봄
+```html
+<script type="text/babel">
+    const root = document.getElementById("root");
+    let counter = 0;
+    function countUp() {
+        
+    }
+    function App() {
+        // useState 사용
+        const [ counter, modifier ] = React.useState(0);
+        console.log(counter);
+        return(
+        <div>
+            <h3>Total clicks: { counter }</h3>
+            <button onClick={countUp}>Click me</button>
+        </div>
+        );
+    }
+    ReactDOM.render(<App/>, root);
+</script>
+```
+
+### setState part Two
+- data와 그에 맞는 modifier를 선정
+- 값이 변경될 때 DOM에서 해당하는 변수가 자동으로 랜더링되는 것을 확인함
+```html
+<script type="text/babel">
+    const root = document.getElementById("root");
+    let counter = 0;
+    function countUp() {
+        
+    }
+    function App() {
+        // [data, modifier]
+        const [ counter, setCounter ] = React.useState(0);
+        const onClick = () => {
+            // counter 변경 후 rendering 진행
+            setCounter(counter + 1);
+           
+        }
+        return(
+        <div>
+            <h3>Total clicks: { counter }</h3>
+            <button onClick={onClick}>Click me</button>
+        </div>
+        );
+    }
+    ReactDOM.render(<App/>, root);
+</script>
+```
+
+### State Functions
+- 
