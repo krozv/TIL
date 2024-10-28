@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // js version
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "outDir": "dist", // 컴파일 결과로 생성되는 코드를 작성하는 영역에서 분리할 수 있음
+    "strict": false, // type 검사 엄격하게 할건지 유무
+    "moduleDetection": "force", // module 시스템 사용 유무
+  },
+  "include": ["src"]
+}
